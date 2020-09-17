@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="layout.css"/>
+		<link rel="stylesheet" type="text/css" href="dangdang.css"/>
+		
+		<style type="text/css">
+			.txt{
+				width: 40px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="head"> <!--头部-->
+			<div class="head-con main">
+				<p>欢迎光临当当，请<a href="#"> 登录 </a>成为会员</p>
+				<ul>
+					<li><a href="#">购物车<span style="color: red;font-weight: bold;">1</span></a></li>
+					<li><a href="#">我的订单</a></li>
+					<li><a href="#">原创征文</a></li>
+					<li><a href="#"><img src="image/box1bg03.png"/>手机当当</a></li>
+					<li><a href="#">我的当当</a></li>
+					<li><a href="#">企业采购</a></li>
+					<li><a href="#">客户服务</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="banner"> <!--宣传图部-->
+			<div class="banner-con main">
+				<img class="img1" src="image/1111111111_03.jpg"/>
+				<div class="img2">
+					<img src="image/logo.PNG"/><img style="height: 36px; margin-top:10px;" src="image/buzou.PNG"/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="peisong"> <!--配送部分-->
+			<div class="peisong-con main">
+				<div class="peisong-left">
+					<a href="#">配送地址</a><a href="#">北京市东城区</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="denglu-con">
+			<img src="image/2222_03.jpg"/>
+			<p>您还没有登录！登录后购物车的商品将保存到您的账号中</p>
+			<a href="#">立即登录</a>
+		</div>
+		
+		<!--购物车-->
+		<table align="center" cellspacing="0" cellpadding="0" width="960px">
+			<thead>
+				<tr>
+					<th width="60px"><input type="checkbox" name='quan'/>&nbsp;&nbsp;全选</th>
+					<th width="440px">商品信息</th>
+					<th width="120px">数量</th>
+					<th width="120px">单价</th>
+					<th width="120px">金额</th>
+					<th width="100px">操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr align="center">
+					<td><input type="checkbox" name="xuan"/></td>
+					<td><img align="left" style="width: 60px;" src="image/bg1.png"/><span style="font-size: 12px;">锋利的javaScript（第3版），增加哈哈哈哈哈</span></td>
+					<td><input type="button" value="-" /><input type="text" class="txt" value="1"/><input type="button" value="+" /></td>
+					<td>$<span>34.50</span></td>
+					<td>$<span>34.50</span></td>
+					<td><input type="button" value="删除" /></td>
+				</tr>
+				<tr align="center">
+					<td><input type="checkbox" name="xuan"/></td>
+					<td><img align="left" style="width: 60px;" src="image/bg2.png"/><span style="font-size: 12px;">锋利的jQuery（第3版），增加哈哈哈哈哈</span></td>
+					<td><input type="button" value="-" /><input type="text" class="txt" value="1"/><input type="button" value="+" /></td>
+					<td>$<span>35.00</span></td>
+					<td>$<span>35.00</span></td>
+					<td><input type="button" value="删除" /></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td style="font-size: 12px;padding-left: 70px;font-weight: bolder;" colspan="5">
+						店铺合计：
+					</td>
+					<td>
+						$<span>0</span>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="6"></td>
+				</tr>
+				<tr>
+					<td colspan="6">
+						<input type="button" value="批量删除" />
+						<p class="yixuanze">已选择<span>0</span>件商品</p>
+						<a href="#">结&nbsp;算</a>
+						<p class="zongji">总计(不含运费)：$<span>0.00</span></p>
+					</td>
+				</tr>
+			</tfoot>
+		</table>
+		
+		<div class="qiehuan"> <!--两页切换图-->
+			<div class="qiehuan-top">
+				<p>买过购物车中商品的用户还买了</p>
+				<div class="dotted">
+					<span class="aa"></span>
+					<span></span>
+				</div>
+			</div>
+			
+			<div class="qiehuan-bottom1">
+				<ul class="ul1">
+					<li>
+						<img src="image/bg1.png"/>
+						<p>锋利的javaScript（第3版），增加哈哈哈哈哈</p>
+						<p>$<span>34.50</span></p>
+						<p>已有<span>9520</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+					<li>
+						<img src="image/bg2.png"/>
+						<p>锋利的jQuery（第3版），增加哈哈哈哈哈</p>
+						<p>$<span>35.00</span></p>
+						<p>已有<span>920</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+					<li>
+						<img src="image/bg3.png"/>
+						<p>哈哈哈的javaScript（第3版），增加哈哈哈哈哈</p>
+						<p>$<span>39.60</span></p>
+						<p>已有<span>3452</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+					<li>
+						<img src="image/bg4.png"/>
+						<p>我是谁你是谁javaScript（第3版），哈哈</p>
+						<p>$<span>58.50</span></p>
+						<p>已有<span>39</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+					<li>
+						<img src="image/bg5.png"/>
+						<p>锋利的javaScript（第3版），增加哈哈哈哈哈</p>
+						<p>$<span>73.50</span></p>
+						<p>已有<span>3545</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+					<li>
+						<img src="image/bg6.png"/>
+						<p>我的妈啊哈哈哈，你没我厉害吧哦哦耶耶</p>
+						<p>$<span>26.50</span></p>
+						<p>已有<span>5355</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+					<li>
+						<img src="image/bg7.png"/>
+						<p>嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤</p>
+						<p>$<span>34.80</span></p>
+						<p>已有<span>8825</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+					<li>
+						<img src="image/bg8.png"/>
+						<p>不告诉不告诉你，就不告诉你，就不告诉你</p>
+						<p>$<span>57.30</span></p>
+						<p>已有<span>3153</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+					<li>
+						<img src="image/bg9.png"/>
+						<p>自己人自己人哈哈哈，不是我的我不会要</p>
+						<p>$<span>18.50</span></p>
+						<p>已有<span>2202</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+					<li>
+						<img src="image/bg10.png"/>
+						<p>没告诉你吗我是最厉害的超人哈哈哈，新世界的卡密</p>
+						<p>$<span>34.50</span></p>
+						<p>已有<span>9520</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+				</ul>
+			</div>
+			<div class="qiehuan-bottom2">
+				<ul class="ul1">
+					<li>
+						<img src="image/bg11.png"/>
+						<p>锋利的javaScript（第3版），增加哈哈哈哈哈</p>
+						<p>$<span>34.50</span></p>
+						<p>已有<span>9520</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+					<li>
+						<img src="image/bg12.png"/>
+						<p>锋利的jQuery（第3版），增加哈哈哈哈哈</p>
+						<p>$<span>35.00</span></p>
+						<p>已有<span>920</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+					<li>
+						<img src="image/bg13.png"/>
+						<p>哈哈哈的javaScript（第3版），增加哈哈哈哈哈</p>
+						<p>$<span>39.60</span></p>
+						<p>已有<span>3452</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+					<li>
+						<img src="image/bg14.png"/>
+						<p>我是谁你是谁javaScript（第3版），哈哈</p>
+						<p>$<span>58.50</span></p>
+						<p>已有<span>39</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+					<li>
+						<img src="image/bg15.png"/>
+						<p>锋利的javaScript（第3版），增加哈哈哈哈哈</p>
+						<p>$<span>73.50</span></p>
+						<p>已有<span>3545</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+					<li>
+						<img src="image/bg16.png"/>
+						<p>我的妈啊哈哈哈，你没我厉害吧哦哦耶耶</p>
+						<p>$<span>26.50</span></p>
+						<p>已有<span>5355</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+					<li>
+						<img src="image/bg17.png"/>
+						<p>嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤</p>
+						<p>$<span>34.80</span></p>
+						<p>已有<span>8825</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+					<li>
+						<img src="image/bg18.png"/>
+						<p>不告诉不告诉你，就不告诉你，就不告诉你</p>
+						<p>$<span>57.30</span></p>
+						<p>已有<span>3153</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+					<li>
+						<img src="image/bg19.png"/>
+						<p>自己人自己人哈哈哈，不是我的我不会要</p>
+						<p>$<span>18.50</span></p>
+						<p>已有<span>2202</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+					<li>
+						<img src="image/bg20.png"/>
+						<p>没告诉你吗我是最厉害的超人哈哈哈，新世界的卡密</p>
+						<p>$<span>34.50</span></p>
+						<p>已有<span>9520</span>位用户评价</p>
+						<div>加入购物车</div>
+					</li>
+				</ul>
+			</div>
+			<div class="left1">&lt</div><div class="right1">&gt</div>
+		</div>
+		
+		<div class="foot"> <!--底部-->
+			<div class="foot-con main">
+				<div class="copy">
+					<p>Copyright (C) 当当网 2004-2014，All Rights Reserved</p><img src="image/333_03.jpg"/><p>京ICP证041189号 出版物经营许可证 新出发京批字第直0673号</p>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="dangdang.js"></script>
+		
+	</body>
+</html>
